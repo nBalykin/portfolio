@@ -427,7 +427,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 }
 .video-card-title {
   font-family: var(--sans);
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 600;
   line-height: 1.25;
   color: var(--text);
