@@ -17,10 +17,10 @@ const videos = [
   { id: 'tiktok-04', category: 'tiktok', title: 'Самолёты', duration: '1:12', orientation: 'portrait', description: 'Женя Трофимов' },
   { id: 'tiktok-01', category: 'tiktok', title: 'Ветер с моря дул + Батарейка', duration: '1:06', orientation: 'portrait', description: 'Натали и Жуки' },
   { id: 'tiktok-06', category: 'tiktok', title: 'Я свободен', duration: '1:26', orientation: 'portrait', description: 'Кипелов' },
-  { id: 'artist-14', category: 'artists', title: 'Пташечка', duration: '0:34', orientation: 'portrait', description: 'Концерт Работа с артистом' },
-  { id: 'artist-15', category: 'artists', title: 'Не отрекаются любя', duration: '0:52', orientation: 'portrait', description: 'Концерт Работа с артистом' },
-  { id: 'artist-16', category: 'artists', title: 'Хобби', duration: '1:12', orientation: 'portrait', description: 'Концерт Работа с артистом' },
-  { id: 'artist-17', category: 'artists', title: 'Снег', duration: '0:37', orientation: 'portrait', description: 'Концерт Работа с артистом' }
+  { id: 'artist-14', category: 'artists', title: 'Пташечка', duration: '0:34', orientation: 'portrait', description: 'Работа с артистом' },
+  { id: 'artist-15', category: 'artists', title: 'Не отрекаются любя', duration: '0:52', orientation: 'portrait', description: 'Работа с артистом' },
+  { id: 'artist-16', category: 'artists', title: 'Хобби', duration: '1:12', orientation: 'portrait', description: 'Работа с артистом' },
+  { id: 'artist-17', category: 'artists', title: 'Снег', duration: '0:37', orientation: 'portrait', description: 'Работа с артистом' }
 ];
 
 const categoryNames = {
