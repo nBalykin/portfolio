@@ -1,26 +1,26 @@
 document.documentElement.classList.add('js');
 
 const videos = [
-  { id: 'promo-medley', category: 'promo', title: 'Попурри', duration: '0:56', orientation: 'landscape', description: 'Промо · Знакомые мелодии' },
-  { id: 'event-08', category: 'promo', title: 'Промо караоке', duration: '0:38', orientation: 'portrait', description: 'Промо · Живое караоке' },
-  { id: 'promo-leps', category: 'promo', title: 'Рюмка водки', duration: '1:10', orientation: 'landscape', description: 'Промо · Григорий Лепс' },
-  { id: 'event-leps', category: 'events', title: 'Рюмка водки', duration: '1:24', orientation: 'landscape', description: 'Караоке · Григорий Лепс' },
-  { id: 'event-11', category: 'events', title: 'WWW Ленинград', duration: '0:58', orientation: 'portrait', description: 'Караоке · «Ленинград»' },
-  { id: 'event-12', category: 'events', title: '«Ром» (1)', duration: '0:16', orientation: 'portrait', description: 'Караоке · Король и Шут' },
-  { id: 'event-13', category: 'events', title: '«Ром» (2)', duration: '0:36', orientation: 'portrait', description: 'Караоке · Король и Шут' },
-  { id: 'tiktok-02', category: 'tiktok', title: 'Знаешь ли ты', duration: '1:16', orientation: 'portrait', description: 'Кавер · МакSим' },
-  { id: 'tiktok-03', category: 'tiktok', title: 'Песенка про зайцев', duration: '1:24', orientation: 'portrait', description: 'Кавер · Юрий Никулин' },
-  { id: 'tiktok-05', category: 'tiktok', title: 'Тополиный пух', duration: '1:13', orientation: 'portrait', description: 'Кавер · Иванушки International' },
-  { id: 'tiktok-07', category: 'tiktok', title: 'От винта', duration: '0:38', orientation: 'portrait', description: 'Кавер · Смешарики' },
-  { id: 'tiktok-newyear-09', category: 'tiktok', title: 'Три белых коня', duration: '1:02', orientation: 'portrait', description: 'Кавер · Новогодняя программа' },
-  { id: 'tiktok-newyear-10', category: 'tiktok', title: 'Разговор со счастьем', duration: '1:04', orientation: 'portrait', description: 'Кавер · Новогодняя программа' },
-  { id: 'tiktok-04', category: 'tiktok', title: 'Самолёты', duration: '1:12', orientation: 'portrait', description: 'Кавер · Женя Трофимов' },
-  { id: 'tiktok-01', category: 'tiktok', title: 'Ветер с моря дул + Батарейка', duration: '1:06', orientation: 'portrait', description: 'Кавер · Натали и Жуки' },
-  { id: 'tiktok-06', category: 'tiktok', title: 'Я свободен', duration: '1:26', orientation: 'portrait', description: 'Кавер · Кипелов' },
-  { id: 'artist-14', category: 'artists', title: 'На сцене · 01', duration: '0:34', orientation: 'portrait', description: 'Концерт · Работа с артистом' },
-  { id: 'artist-15', category: 'artists', title: 'На сцене · 02', duration: '0:52', orientation: 'portrait', description: 'Концерт · Работа с артистом' },
-  { id: 'artist-16', category: 'artists', title: 'На сцене · 03', duration: '1:12', orientation: 'portrait', description: 'Концерт · Работа с артистом' },
-  { id: 'artist-17', category: 'artists', title: 'На сцене · 04', duration: '0:37', orientation: 'portrait', description: 'Концерт · Работа с артистом' }
+  { id: 'promo-medley', category: 'promo', title: 'Попурри', duration: '0:56', orientation: 'landscape', description: 'Промо Знакомые мелодии' },
+  { id: 'event-08', category: 'promo', title: 'Конь (с гостями)', duration: '0:38', orientation: 'portrait', description: 'Промо Караоке' },
+  { id: 'promo-leps', category: 'promo', title: 'Рюмка водки', duration: '1:10', orientation: 'landscape', description: 'Кавер Григорий Лепс' },
+  { id: 'event-leps', category: 'events', title: 'Рюмка водки', duration: '1:24', orientation: 'landscape', description: 'Караоке Григорий Лепс' },
+  { id: 'event-11', category: 'events', title: 'WWW Ленинград', duration: '0:58', orientation: 'portrait', description: 'Караоке «Ленинград»' },
+  { id: 'event-12', category: 'events', title: '«Ром» (1)', duration: '0:16', orientation: 'portrait', description: 'Караоке Король и Шут' },
+  { id: 'event-13', category: 'events', title: '«Ром» (2)', duration: '0:36', orientation: 'portrait', description: 'Караоке Король и Шут' },
+  { id: 'tiktok-02', category: 'tiktok', title: 'Знаешь ли ты', duration: '1:16', orientation: 'portrait', description: 'Кавер МакSим' },
+  { id: 'tiktok-03', category: 'tiktok', title: 'Песенка про зайцев', duration: '1:24', orientation: 'portrait', description: 'Кавер Юрий Никулин' },
+  { id: 'tiktok-05', category: 'tiktok', title: 'Тополиный пух', duration: '1:13', orientation: 'portrait', description: 'Кавер Иванушки International' },
+  { id: 'tiktok-07', category: 'tiktok', title: 'От винта', duration: '0:38', orientation: 'portrait', description: 'Кавер Смешарики' },
+  { id: 'tiktok-newyear-09', category: 'tiktok', title: 'Три белых коня', duration: '1:02', orientation: 'portrait', description: 'Кавер Новогодняя программа' },
+  { id: 'tiktok-newyear-10', category: 'tiktok', title: 'Разговор со счастьем', duration: '1:04', orientation: 'portrait', description: 'Кавер Новогодняя программа' },
+  { id: 'tiktok-04', category: 'tiktok', title: 'Самолёты', duration: '1:12', orientation: 'portrait', description: 'Кавер Женя Трофимов' },
+  { id: 'tiktok-01', category: 'tiktok', title: 'Ветер с моря дул + Батарейка', duration: '1:06', orientation: 'portrait', description: 'Кавер Натали и Жуки' },
+  { id: 'tiktok-06', category: 'tiktok', title: 'Я свободен', duration: '1:26', orientation: 'portrait', description: 'Кавер Кипелов' },
+  { id: 'artist-14', category: 'artists', title: 'На сцене 01', duration: '0:34', orientation: 'portrait', description: 'Концерт Работа с артистом' },
+  { id: 'artist-15', category: 'artists', title: 'На сцене 02', duration: '0:52', orientation: 'portrait', description: 'Концерт Работа с артистом' },
+  { id: 'artist-16', category: 'artists', title: 'На сцене 03', duration: '1:12', orientation: 'portrait', description: 'Концерт Работа с артистом' },
+  { id: 'artist-17', category: 'artists', title: 'На сцене 04', duration: '0:37', orientation: 'portrait', description: 'Концерт Работа с артистом' }
 ];
 
 const categoryNames = {
