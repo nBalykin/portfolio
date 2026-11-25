@@ -1,0 +1,8 @@
+.preview/
+ChatExport_2026-11-25/
+Фото оригиналы/
+*.JPG
+*.jpg
+*.png
+!assets/**/*.jpg
+!assets/**/*.png

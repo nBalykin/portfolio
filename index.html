@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Душевные каверы — Никита, пианист и клавишник. Видео выступлений, живое караоке, работа с артистами и фотографии.">
+  <meta name="theme-color" content="#0b0b0e">
+  <meta property="og:title" content="Душевные каверы — пианист и клавишник">
+  <meta property="og:description" content="Пианист и клавишник. Видео, фотографии и контакты.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero-steinway.webp">
+  <title>Пианист на мероприятие</title>
+  <link rel="icon" type="image/png" href="assets/images/brand-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/images/hero-steinway.webp" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержанию</a>
+
+  <header class="site-header" data-header>
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Душевные каверы — на главную">
+        <span class="brand-mark"><img src="assets/images/brand-mark.png" alt="" width="512" height="475"></span>
+        <span class="brand-name">Портфолио</span>
+      </a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#videos">Видео</a>
+        <a href="#photos">Фото</a>
+        <a href="#about">Обо мне</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <a class="header-contact" href="https://t.me/mrnekiton" target="_blank" rel="noopener noreferrer">
+        Написать
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M6 5h9v9"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-title">Душевные каверы</h1>
+          <p class="hero-lead">
+            Меня зовут Никита — я пианист, клавишник и аранжировщик. Украшу ваш вечер известными мелодиями, киномузыкой, популярными каверами и устрою живое караоке.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-gold" href="#videos">
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m6 4 10 6-10 6V4Z"/></svg>
+              Смотреть видео
+            </a>
+            <a class="button button-outline" href="https://t.me/mrnekiton" target="_blank" rel="noopener noreferrer">
+              Написать в Telegram
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <dl class="hero-facts">
+            <div><dt>17 лет</dt><dd>в музыке</dd></div>
+            <div><dt>50+</dt><dd>событий в год</dd></div>
+            <div><dt>Москва</dt><dd>и область</dd></div>
+          </dl>
+        </div>
+
+        <figure class="hero-visual">
+          <img src="assets/images/hero-steinway.webp" alt="Никита за роялем Steinway в концертном зале" width="1086" height="1448" fetchpriority="high" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-elevated" id="videos" aria-labelledby="videos-title">
+      <div class="container">
+        <header class="section-heading reveal">
+          <div>
+            <p class="section-index">01 / Видео</p>
+            <h2 id="videos-title">Записи с выступлений</h2>
+          </div>
+          <p class="section-subtitle">Промо-ролики, живое караоке с гостями, фрагменты концертов и зарисовки.</p>
+        </header>
+
+        <div class="video-tabs reveal" role="tablist" aria-label="Категории видео">
+          <button type="button" role="tab" aria-selected="true" data-category="promo">Промо <span>03</span></button>
+          <button type="button" role="tab" aria-selected="false" data-category="events" tabindex="-1">События и караоке <span>04</span></button>
+          <button type="button" role="tab" aria-selected="false" data-category="tiktok" tabindex="-1">TikTok <span>09</span></button>
+          <button type="button" role="tab" aria-selected="false" data-category="artists" tabindex="-1">Концертная работа <span>04</span></button>
+        </div>
+
+        <div class="video-grid" id="video-grid" role="tabpanel" aria-live="polite" aria-label="Промо"></div>
+        <noscript><p class="noscript-note">Для просмотра видео включите JavaScript. Фотографии и контакты доступны ниже.</p></noscript>
+      </div>
+    </section>
+
+    <section class="section" id="photos" aria-labelledby="photos-title">
+      <div class="container">
+        <header class="section-heading reveal">
+          <div>
+            <p class="section-index">02 / Фото</p>
+            <h2 id="photos-title">На сцене и за роялем</h2>
+          </div>
+          <p class="section-subtitle">Концерты, репетиции и частные вечера.</p>
+        </header>
+
+        <div class="photo-bento reveal">
+          <button class="photo-card bento-tall" type="button" data-photo="0" aria-label="Открыть фото: На винной дегустации">
+            <img src="assets/images/portrait-seated-800.webp" alt="Никита сидит за фортепиано" width="534" height="800" loading="lazy" decoding="async">
+            <span class="photo-caption-hover">На винной дегустации</span>
+          </button>
+          <button class="photo-card bento-wide" type="button" data-photo="1" aria-label="Открыть фото: Москва - МДМ">
+            <img src="assets/images/stage-front-800.webp" alt="Никита на сцене за красным синтезатором" width="800" height="534" loading="lazy" decoding="async">
+            <span class="photo-caption-hover">Москва - МДМ</span>
+          </button>
+          <button class="photo-card bento-tall" type="button" data-photo="2" aria-label="Открыть фото: Репетиция">
+            <img src="assets/images/piano-lights-800.webp" alt="Никита играет на фортепиано в тёплом свете гирлянд" width="534" height="800" loading="lazy" decoding="async">
+            <span class="photo-caption-hover">Репетиция</span>
+          </button>
+          <button class="photo-card bento-wide photo-card-keys" type="button" data-photo="4" aria-label="Открыть фото: На сцене">
+            <img src="assets/images/stage-keys-800.webp" alt="Никита играет на красных клавишных Nord" width="800" height="534" loading="lazy" decoding="async">
+            <span class="photo-caption-hover">На сцене</span>
+          </button>
+          <button class="photo-card" type="button" data-photo="3" aria-label="Открыть фото: Алтай - Концерт под открытым небом">
+            <img src="assets/images/stage-white-800.webp" alt="Никита за клавишными Nord Stage на сцене" width="800" height="752" loading="lazy" decoding="async">
+            <span class="photo-caption-hover">Алтай - Концерт под открытым небом</span>
+          </button>
+          <button class="photo-card bento-wide" type="button" data-photo="5" aria-label="Открыть фото: На сцене">
+            <img src="assets/images/stage-back-800.webp" alt="Вид на Никиту за клавишными со стороны сцены" width="800" height="534" loading="lazy" decoding="async">
+            <span class="photo-caption-hover">На сцене</span>
+          </button>
+          <button class="photo-card bento-tall" type="button" data-photo="6" aria-label="Открыть фото: Малый зал МГК">
+            <img src="assets/images/steinway-portrait-800.webp" alt="Портрет Никиты за чёрным роялем" width="600" height="800" loading="lazy" decoding="async">
+            <span class="photo-caption-hover">Малый зал МГК</span>
+          </button>
+          <button class="photo-card bento-wide photo-card-festival" type="button" data-photo="7" aria-label="Открыть фото: Сочи - КЗ «Фестивальный»">
+            <img src="assets/images/festival-close-800.webp" alt="Никита за клавишными Nord на фестивальном концерте" width="800" height="533" loading="lazy" decoding="async">
+            <span class="photo-caption-hover">Сочи - КЗ "Фестивальный"</span>
+          </button>
+          <button class="photo-card" type="button" data-photo="8" aria-label="Открыть фото: Рахманиновский зал МГК">
+            <img src="assets/images/steinway-hall-800.webp" alt="Никита за роялем Steinway в концертном зале" width="600" height="800" loading="lazy" decoding="async">
+            <span class="photo-caption-hover">Рахманиновский зал МГК</span>
+          </button>
+        </div>
+        <p class="gallery-hint reveal"><span aria-hidden="true">↗</span> Нажмите на фотографию, чтобы открыть в полном качестве</p>
+      </div>
+    </section>
+
+    <section class="section section-elevated" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <p class="section-index reveal">03 / Обо мне</p>
+        <div class="about-grid">
+          <div class="about-intro reveal">
+            <h2 id="about-title">17 лет за инструментом</h2>
+            <p class="about-text">
+              Выступаю на больших концертных площадках, играю на частных мероприятиях.
+            </p>
+          </div>
+
+          <div class="about-cards reveal">
+            <article class="info-card">
+              <span class="info-card-label">Образование</span>
+              <h3>МГК им. Чайковского</h3>
+              <p>АМУ при МГК и Московская государственная консерватория.</p>
+            </article>
+            <article class="info-card">
+              <span class="info-card-label">Большая сцена</span>
+              <h3>Киркоров · Туриченко</h3>
+              <p>Постоянный клавишник в составах артистов, выступления с группой «Те100стерон».</p>
+            </article>
+            <article class="info-card info-card-wide">
+              <span class="info-card-label">Форматы работы</span>
+              <div class="format-tags">
+                <span>Welcome</span>
+                <span>Караоке под рояль</span>
+                <span>Каверы на фортепиано</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-copy">
+            <p class="section-index">04 / Контакты</p>
+            <h2 id="contact-title">Забронировать дату</h2>
+            <p class="contact-subtitle">Напишите в Telegram — обсудим формат, репертуар и свободное время.</p>
+          </div>
+
+          <div class="contact-actions">
+            <a class="contact-telegram-btn" href="https://t.me/mrnekiton" target="_blank" rel="noopener noreferrer">
+              <span>
+                <small>Написать в Telegram</small>
+                <strong>
+                  <svg class="contact-telegram-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" stroke="none" aria-hidden="true"><path d="M21.9 4.6 18.6 19.3c-.25 1.1-.9 1.37-1.82.85l-5-3.7-2.42 2.33c-.27.27-.5.5-1.02.5l.36-5.12 9.32-8.42c.4-.36-.09-.56-.63-.2L5.87 13.12.96 11.58c-1.07-.33-1.09-1.07.22-1.58L20.37 3c.89-.33 1.67.2 1.53 1.6Z"/></svg>
+                  @mrnekiton
+                </strong>
+              </span>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <div class="social-links">
+              <a href="https://www.tiktok.com/@skipper_cover" target="_blank" rel="noopener noreferrer">
+                <svg class="social-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" stroke="none" aria-hidden="true"><path d="M12.5 2h3.1c.2 1.2.8 2.3 1.7 3.1 1 .9 2.2 1.4 3.5 1.5v3.2c-1.8 0-3.5-.5-5-1.5v6.1c0 1.6-.6 3.1-1.8 4.2a6.2 6.2 0 0 1-4.3 1.8 6.3 6.3 0 0 1-6.2-6.3c0-3.5 2.8-6.2 6.2-6.2.3 0 .7 0 1 .1v3.3a3 3 0 0 0-1-.2 3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V2Z"/></svg>
+                TikTok
+              </a>
+              <a href="https://vk.com/clips/skipper_sound" target="_blank" rel="noopener noreferrer">
+                <svg class="social-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" stroke="none" aria-hidden="true"><path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93v6.14C2 20.67 3.33 22 8.93 22h6.14c5.6 0 6.93-1.33 6.93-6.93V8.93C22 3.33 20.67 2 15.07 2m3.45 14.27h-1.46c-.55 0-.72-.44-1.71-1.44-1.29-1.28-1.85-1.45-2.17-1.45-.44 0-.57.13-.57.75v1.32c0 .39-.12.63-1.16.63-1.71 0-3.61-1.04-4.95-2.98-2.01-2.82-2.56-4.94-2.56-5.36 0-.24.08-.47.75-.47h1.46c.56 0 .77.26 1.01.85 1.09 3.13 2.92 5.88 3.67 5.88.28 0 .41-.13.41-.84V10.6c-.09-1.5-.88-1.63-.88-2.17 0-.19.16-.39.42-.39h2.29c.47 0 .64.25.64.78v3.51c0 .47.21.64.34.64.28 0 .51-.17 1.03-.68 1.59-1.78 2.73-4.53 2.73-4.53.15-.32.41-.62.97-.62h1.46c.44 0 .54.23.44.54-.18.85-1.96 3.36-1.96 3.36-.16.26-.22.37 0 .65.15.21.67.65 1.01 1.05.62.71 1.1 1.31 1.23 1.72.15.4-.07.79-.51.79Z"/></svg>
+                VK Клипы
+              </a>
+              <a href="https://www.youtube.com/@skipper_sound/featured" target="_blank" rel="noopener noreferrer">
+                <svg class="social-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" stroke="none" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31.2 31.2 0 0 0 0 12a31.2 31.2 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31.2 31.2 0 0 0 24 12a31.2 31.2 0 0 0-.5-5.8ZM9.6 15.6V8.4L15.8 12l-6.2 3.6Z"/></svg>
+                YouTube
+              </a>
+              <a href="https://t.me/skipper_cover" target="_blank" rel="noopener noreferrer">
+                <svg class="social-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" stroke="none" aria-hidden="true"><path d="M21.9 4.6 18.6 19.3c-.25 1.1-.9 1.37-1.82.85l-5-3.7-2.42 2.33c-.27.27-.5.5-1.02.5l.36-5.12 9.32-8.42c.4-.36-.09-.56-.63-.2L5.87 13.12.96 11.58c-1.07-.33-1.09-1.07.22-1.58L20.37 3c.89-.33 1.67.2 1.53 1.6Z"/></svg>
+                ТГ-блог
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Душевные каверы</span>
+      <span>Москва · 2026</span>
+      <a href="#top">Наверх <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <dialog class="player-dialog" id="player-dialog" aria-labelledby="player-title">
+    <div class="player-layout">
+      <div class="player-topbar">
+        <span id="player-category">Видео</span>
+        <button class="dialog-close" type="button" data-close-player aria-label="Закрыть видео">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <div class="player-frame">
+        <video id="video-player" controls playsinline preload="metadata"></video>
+      </div>
+      <div class="player-details">
+        <div>
+          <h3 id="player-title"></h3>
+          <p id="player-description"></p>
+        </div>
+        <div class="player-navigation">
+          <span id="player-counter"></span>
+          <button type="button" id="player-prev" aria-label="Предыдущее видео"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button>
+          <button type="button" id="player-next" aria-label="Следующее видео"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="photo-dialog" id="photo-dialog" aria-labelledby="photo-caption">
+    <div class="photo-viewer">
+      <div class="player-topbar">
+        <span id="photo-counter">Фото</span>
+        <button class="dialog-close" type="button" data-close-photo aria-label="Закрыть фотографию">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <div class="photo-viewer-frame"><img id="photo-full" alt=""></div>
+      <div class="photo-viewer-bottom">
+        <p id="photo-caption"></p>
+        <div class="player-navigation">
+          <button type="button" id="photo-prev" aria-label="Предыдущая фотография"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button>
+          <button type="button" id="photo-next" aria-label="Следующая фотография"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
