@@ -37,9 +37,9 @@ const photos = [
   { src: 'assets/images/full/stage-white.jpg', alt: 'Никита за клавишными Nord Stage на сцене', caption: 'Алтай - Концерт под открытым небом' },
   { src: 'assets/images/full/stage-keys.jpg', alt: 'Никита играет на красных клавишных Nord', caption: 'На сцене' },
   { src: 'assets/images/full/stage-back.jpg', alt: 'Вид на Никиту за клавишными со стороны сцены', caption: 'На сцене' },
-  { src: 'assets/images/full/steinway-portrait.png', alt: 'Портрет Никиты за чёрным роялем', caption: 'Малый зал МГК' },
+  { src: 'assets/images/full/steinway-portrait.png', alt: 'Портрет Никиты за чёрным роялем', caption: 'Москва - Малый зал МГК' },
   { src: 'assets/images/full/festival-close.jpg', alt: 'Никита за клавишными Nord на фестивальном концерте', caption: 'Сочи - КЗ "Фестивальный"' },
-  { src: 'assets/images/full/steinway-hall.jpg', alt: 'Никита за роялем Steinway в концертном зале', caption: 'Рахманиновский зал МГК' }
+  { src: 'assets/images/full/steinway-hall.jpg', alt: 'Никита за роялем Steinway в концертном зале', caption: 'Москва - Рахманиновский зал МГК' }
 ];
 
 const header = document.querySelector('[data-header]');
