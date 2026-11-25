@@ -426,9 +426,10 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   padding: 0.95rem 1.05rem 1.05rem;
 }
 .video-card-title {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 19px;
-  line-height: 1.2;
+  font-weight: 600;
+  line-height: 1.25;
   color: var(--text);
 }
 .video-card-desc {
