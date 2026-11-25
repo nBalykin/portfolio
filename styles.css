@@ -267,7 +267,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 .section-index {
   margin: 0 0 0.75rem;
   color: var(--accent);
-  font-size: 0.75rem;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -297,6 +297,9 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   font-size: 0.92rem;
   line-height: 1.6;
 }
+#photos .section-subtitle {
+  font-size: 17px;
+}
 
 /* Video Tabs & Grid */
 .video-tabs {
@@ -306,18 +309,18 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   margin-bottom: 2.25rem;
 }
 .video-tabs button {
-  padding: 0.65rem 1.25rem;
+  padding: 10px 20px;
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--bg-card);
   color: var(--text-muted);
-  font-size: 0.88rem;
+  font-size: 16px;
   font-weight: 500;
   transition: background-color 200ms, color 200ms, border-color 200ms;
 }
 .video-tabs button span {
   margin-left: 0.35rem;
-  font-size: 0.75rem;
+  font-size: 13px;
   opacity: 0.65;
 }
 .video-tabs button:hover {
@@ -411,9 +414,9 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   bottom: 0.7rem;
   padding: 0.18rem 0.5rem;
   border-radius: 0.35rem;
-  background: rgba(11, 11, 14, 0.72);
+  background: rgba(0, 0, 0, 0.75);
   color: var(--text);
-  font-size: 0.75rem;
+  font-size: 13px;
   font-weight: 500;
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
@@ -426,13 +429,13 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 }
 .video-card-title {
   font-family: var(--serif);
-  font-size: 1.25rem;
+  font-size: 19px;
   line-height: 1.2;
   color: var(--text);
 }
 .video-card-desc {
-  color: var(--text-muted);
-  font-size: 0.8rem;
+  color: #A1A1AA;
+  font-size: 14px;
   line-height: 1.45;
 }
 .noscript-note { color: var(--text-muted); }
@@ -525,7 +528,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   gap: 1rem;
 }
 .info-card {
-  padding: 1.55rem;
+  padding: 28px;
   border: 1px solid var(--border);
   border-radius: 1rem;
   background: var(--bg-card);
@@ -540,7 +543,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   display: block;
   margin-bottom: 0.55rem;
   color: var(--accent);
-  font-size: 0.78rem;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -548,13 +551,13 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 .info-card h3 {
   margin: 0 0 0.45rem;
   font-family: var(--serif);
-  font-size: 1.5rem;
+  font-size: 23px;
   font-weight: 400;
 }
 .info-card p {
   margin: 0;
   color: #bab3a6;
-  font-size: 0.92rem;
+  font-size: 16px;
   line-height: 1.62;
 }
 .format-tags {
@@ -564,11 +567,11 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   margin-top: 0.65rem;
 }
 .format-tags span {
-  padding: 0.4rem 0.85rem;
-  border: 1px solid var(--border);
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 999px;
-  background: var(--bg);
-  font-size: 0.8rem;
+  background: transparent;
+  font-size: 15px;
   color: var(--text);
 }
 
