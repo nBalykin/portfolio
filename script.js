@@ -1,7 +1,7 @@
 document.documentElement.classList.add('js');
 
 const videos = [
-  { id: 'promo-medley', category: 'promo', title: 'Попурри', duration: '0:56', orientation: 'landscape', description: 'Промо Знакомые мелодии' },
+  { id: 'promo-medley', category: 'promo', title: 'Попурри', duration: '0:56', orientation: 'landscape', description: 'Знакомые мелодии' },
   { id: 'event-08', category: 'promo', title: 'Конь (с гостями)', duration: '0:38', orientation: 'portrait', description: 'Промо Караоке' },
   { id: 'promo-leps', category: 'promo', title: 'Рюмка водки', duration: '1:10', orientation: 'landscape', description: 'Кавер Григорий Лепс' },
   { id: 'event-leps', category: 'events', title: 'Рюмка водки', duration: '1:24', orientation: 'landscape', description: 'Караоке Григорий Лепс' },
