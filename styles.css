@@ -291,11 +291,12 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   letter-spacing: -0.015em;
 }
 .section-subtitle {
-  max-width: 24rem;
+  max-width: 26rem;
   margin: 0;
-  color: var(--text-muted);
-  font-size: 17px;
-  line-height: 1.6;
+  color: rgba(244, 239, 230, 0.78);
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.35;
 }
 
 /* Video Tabs & Grid */
