@@ -467,10 +467,14 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 15%;
+  object-position: 50% 20%;
   transition: transform 650ms cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 .photo-card:hover img { transform: scale(1.03); }
+.photo-bento .photo-card:nth-child(1) img { object-position: 20% 15%; }
+.photo-bento .photo-card:nth-child(2) img { object-position: 50% 55%; }
+.photo-bento .photo-card:nth-child(6) img { object-position: 50% 45%; }
+.photo-bento .photo-card:nth-child(9) img { object-position: 10% 25%; }
 .photo-card-keys img { object-position: 62% 50%; }
 .photo-card-festival img { object-position: 65% 40%; }
 .photo-caption-hover {
@@ -824,14 +828,14 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   .video-grid.landscape-layout { grid-template-columns: 1fr; }
   .photo-bento {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-auto-rows: 9.5rem;
+    grid-auto-rows: clamp(13.5rem, 64vw, 16rem);
     grid-auto-flow: dense;
     gap: 0.65rem;
   }
-  .photo-bento .bento-tall { grid-column: span 1; grid-row: span 2; }
-  .photo-bento .bento-wide { grid-column: span 2; grid-row: span 1; }
+  .photo-bento .bento-tall,
+  .photo-bento .photo-card:nth-child(9) { grid-column: span 1; grid-row: span 1; }
+  .photo-bento .bento-wide,
   .photo-bento .photo-card:nth-child(5) { grid-column: span 2; grid-row: span 1; }
-  .photo-bento .photo-card:nth-child(9) { grid-column: span 1; grid-row: span 2; }
   .about-cards { grid-template-columns: 1fr; }
   .info-card-wide { grid-column: span 1; }
   .gallery-hint { text-align: left; }
