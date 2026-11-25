@@ -133,7 +133,27 @@ function openPlayer(videoId, trigger) {
 }
 
 function stepVideo(direction) {
-  currentVideoIndex = (currentVideoIndex + direction + currentVideos.length) % currentVideos.length;
+  const nextIndex = currentVideoIndex + direction;
+  if (nextIndex >= 0 && nextIndex < currentVideos.length) {
+    currentVideoIndex = nextIndex;
+    updatePlayer();
+    return;
+  }
+
+  const categories = tabs.map(tab => tab.dataset.category);
+  const currentCatIndex = categories.indexOf(currentCategory);
+  if (currentCatIndex < 0 || !categories.length) return;
+
+  const stepCat = direction > 0 ? 1 : -1;
+  const nextCatIndex = (currentCatIndex + stepCat + categories.length) % categories.length;
+  selectCategory(categories[nextCatIndex]);
+  if (!currentVideos.length) return;
+
+  currentVideoIndex = direction > 0 ? 0 : currentVideos.length - 1;
+  const activeVideo = currentVideos[currentVideoIndex];
+  if (activeVideo) {
+    lastPlayerTrigger = videoGrid.querySelector(`[data-video-id="${activeVideo.id}"]`);
+  }
   updatePlayer();
 }
 
